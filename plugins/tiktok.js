@@ -50,7 +50,7 @@ handler.tags = ['downloader']
 
 handler.command = /^(tik|tt|tiktok)$/i
 
-module.exports = handler/*
+module.exports = handler*/
 
 
 const { tiktokdl } = require('@bochilteam/scraper')
@@ -93,4 +93,4 @@ module.exports = handler
 
 const isUrl = (text) => {
     return text.match(new RegExp(/(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/, 'gi'))
-  }/*
+  }*/
